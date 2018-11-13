@@ -9,3 +9,12 @@ Product.create name: 'Tablet', description:'Um tablet novo ...', status: :active
 
 # Create discounts
 Discount.create name: 'Desconto percentual', description: 'Aplique esse desconto com percentual', value: '10', kind: :porcent, status: :active
+
+
+# Criando alguns produtos de exemplo
+Product.create name: 'Smartphone', description:'Um smartphone novo ...', status: :active, price: 10
+Product.create name: 'Tablet', description:'Um tablet novo ...', status: :active, price: 20
+
+# Create client
+Client.create name: 'Paulo', company_name: 'Google', document: '1234', email: 'paulo@google.com', user: User.first
+Client.create name: 'Julia', company_name: 'Google', document: 'abcd', email: 'julia@google.com', user: User.first
