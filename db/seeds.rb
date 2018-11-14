@@ -10,8 +10,6 @@ Product.create name: 'Tablet', description:'Um tablet novo ...', status: :active
 # Create discounts
 Discount.create name: 'Desconto percentual', description: 'Aplique esse desconto com percentual', value: '10', kind: :porcent, status: :active
 
-
-# Criando alguns produtos de exemplo
 Product.create name: 'Smartphone', description:'Um smartphone novo ...', status: :active, price: 10
 Product.create name: 'Tablet', description:'Um tablet novo ...', status: :active, price: 20
 
